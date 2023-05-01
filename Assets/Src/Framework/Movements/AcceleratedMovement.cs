@@ -12,7 +12,7 @@ namespace Framework.Movements
         private Vector2 m_direction;
         private Rigidbody2D m_rigidbody;
         private float m_acceleration;
-        [SerializeField]private float m_speed = 0;
+        private float m_speed = 0;
 
         public void Init(Vector2 direction, float startSpeed, float acceleration)
         {
