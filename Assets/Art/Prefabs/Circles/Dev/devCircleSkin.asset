@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00b0efaac5855294d9f0e0223edfb933, type: 3}
+  m_Name: devCircleSkin
+  m_EditorClassIdentifier: 
+  m_smallCirclePrefab: {fileID: 4880288032374030736, guid: 5ddb764e4306d524abae4ff49754eaed, type: 3}
+  m_backgroundPrefab: {fileID: 643581416321618057, guid: d3dfd926be607964eb51525086e574cf, type: 3}
