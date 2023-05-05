@@ -16,7 +16,27 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: acc1b03d542192b449f402b31ba81660
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 23a542b094c5d6c4f9ed076cb77c683d
+    m_Address: Assets/MainColors.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 33d9c98f248d0bd4d8b0fd206fdde494
+    m_Address: Assets/Shapes/Circle.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 44cf7272101812c499c2b2dfbe43daad
+    m_Address: Assets/Shapes/Hexagon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 006a0d7842f191047b4a21c6ddc3ba3a
+    m_Address: Assets/Shapes/Square.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d618ce42154351743a65b71845022ddf
+    m_Address: Assets/Shapes/Triangle.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 9d74a5dd9fa9f2245a2fd6c551076224, type: 2}
   m_SchemaSet:
