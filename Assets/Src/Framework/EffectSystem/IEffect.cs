@@ -1,4 +1,4 @@
-﻿namespace Framework.EffectSystem.Core
+﻿namespace Framework.EffectSystem
 {
     public interface IEffect
     {

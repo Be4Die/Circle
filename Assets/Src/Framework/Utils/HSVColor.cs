@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Framework.EffectSystem.Core
+namespace Framework.Utils
 {
     public struct HSVColor
     {
