@@ -393,8 +393,8 @@ GameObject:
   m_Component:
   - component: {fileID: 693401508}
   - component: {fileID: 693401507}
-  - component: {fileID: 693401509}
-  - component: {fileID: 693401510}
+  - component: {fileID: 693401511}
+  - component: {fileID: 693401512}
   m_Layer: 0
   m_Name: RainbowEffect
   m_TagString: Untagged
@@ -467,9 +467,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &693401509
+--- !u!114 &693401511
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -478,11 +478,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 693401505}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c643ebac5674554b94f8fd096b1bc01, type: 3}
+  m_Script: {fileID: 11500000, guid: fe1daf85158eae246b7c31d585b3bf21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_speed: 3
---- !u!114 &693401510
+  m_speed: 0
+--- !u!114 &693401512
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -491,10 +491,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 693401505}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d873146f92f0224a8aa4a34a995f3f1, type: 3}
+  m_Script: {fileID: 11500000, guid: 41c08b3f5acd2ec448e263e45161cd47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_speed: 4
+  m_isPause: 0
+  m_isRightRotate: 0
+  m_speed: 10
 --- !u!1 &737312174
 GameObject:
   m_ObjectHideFlags: 0
@@ -586,13 +588,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f87276dc69d2894087c0044efd7e717, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_spawnPos:
-  - {fileID: 737312175}
-  - {fileID: 111973798}
-  - {fileID: 838873356}
-  - {fileID: 2141290454}
-  m_startSpeed: 1
-  m_acceleration: 0.08
 --- !u!4 &1608114388
 Transform:
   m_ObjectHideFlags: 0
@@ -667,56 +662,6 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2048580142
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2048580144}
-  - component: {fileID: 2048580143}
-  m_Layer: 0
-  m_Name: Circle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &2048580143
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2048580142}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95b405119a1f0e449b2dc921b3e3ee37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_shape: 1
-  m_color: 1
-  m_scale: 2
-  m_smallCircleCount: 4
-  m_backgroundOpacity: 0.34
-  m_skinPack: {fileID: 11400000, guid: c04ccbe6c5aaa604ea97e24e836c7e3e, type: 2}
---- !u!4 &2048580144
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2048580142}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7

@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Art/UI/Shop/shop.uss?fileID=7433441132597879392&amp;guid=404a25c2d7b3bdb4fa76fc43942b25be&amp;type=3#shop" />
+    <Style src="project://database/Assets/Art/UI/Global/mainUSS.uss?fileID=7433441132597879392&amp;guid=d971ae32688bf7f439906c6a2fc192e7&amp;type=3#mainUSS" />
+    <ui:VisualElement style="flex-direction: row; flex-shrink: 0; flex-grow: 1; justify-content: space-around; border-left-width: 4px; border-right-width: 4px; border-top-width: 4px; border-bottom-width: 4px; border-left-color: rgb(89, 89, 89); border-right-color: rgb(89, 89, 89); border-top-color: rgb(89, 89, 89); border-bottom-color: rgb(89, 89, 89); border-top-left-radius: 34px; border-bottom-left-radius: 34px; border-top-right-radius: 34px; border-bottom-right-radius: 34px; background-color: rgb(132, 132, 132); max-width: 520px; max-height: 120px; min-width: 520px; min-height: 120px; align-items: stretch;">
+        <ui:VisualElement name="Content" style="flex-grow: 4; flex-direction: row;">
+            <ui:VisualElement name="Header" style="flex-grow: 2; flex-shrink: 2; flex-basis: 0;">
+                <ui:Label text="Label" display-tooltip-when-elided="true" name="ProductType" class="text" style="flex-shrink: 2; flex-wrap: nowrap; -unity-text-align: middle-left; justify-content: center; align-items: center; flex-grow: 0; white-space: nowrap; font-size: 38px; margin-left: 20px;" />
+                <ui:Label text="Label" display-tooltip-when-elided="true" name="ProductName" class="text" style="flex-shrink: 0; flex-wrap: nowrap; -unity-text-align: middle-center; justify-content: center; align-items: center; flex-grow: 1; font-size: 40px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Item" style="flex-grow: 2; flex-basis: 0;" />
+        </ui:VisualElement>
+        <ui:Button display-tooltip-when-elided="true" name="BuyButton" class="buy" style="padding-left: 24px; padding-right: 24px; margin-top: 10px; margin-bottom: 10px; flex-grow: 1; min-width: auto; flex-shrink: 0; margin-right: 15px;" />
+    </ui:VisualElement>
+</ui:UXML>

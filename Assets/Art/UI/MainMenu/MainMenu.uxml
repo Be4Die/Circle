@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Art/UI/Global/mainUSS.uss?fileID=7433441132597879392&amp;guid=d971ae32688bf7f439906c6a2fc192e7&amp;type=3#mainUSS" />
+    <ui:VisualElement name="Title" style="flex-grow: 1; flex-shrink: 1; flex-wrap: wrap-reverse; justify-content: space-around; align-items: center; flex-direction: column; flex-basis: auto;">
+        <ui:Label text="Circle" display-tooltip-when-elided="true" class="text" style="font-size: 58px; -unity-font-style: bold;" />
+        <ui:VisualElement name="ScoreContainer" style="flex-direction: column; flex-shrink: 0;">
+            <ui:VisualElement name="BestScore" style="flex-direction: row; flex-wrap: wrap-reverse; justify-content: center;">
+                <ui:Label text="Best Score:" display-tooltip-when-elided="true" class="text" style="-unity-font: resource(&apos;FlatSkin/Font/Roboto-Black&apos;); font-size: 25px; -unity-text-align: middle-center;" />
+                <ui:Label text="0000" display-tooltip-when-elided="true" style="font-size: 29px; -unity-text-align: middle-center; color: rgb(204, 204, 101); -unity-font-style: bold;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="LastScore" style="flex-direction: row; flex-wrap: wrap-reverse; justify-content: center;">
+                <ui:Label text="Last Score:" display-tooltip-when-elided="true" class="text" style="-unity-font: resource(&apos;FlatSkin/Font/Roboto-Black&apos;); font-size: 18px; -unity-text-align: middle-center;" />
+                <ui:Label text="0000" display-tooltip-when-elided="true" style="font-size: 21px; -unity-text-align: middle-center; color: rgb(101, 204, 113); -unity-font-style: bold;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="Body" style="flex-grow: 6; flex-shrink: 1; align-items: stretch; justify-content: space-around; margin-top: 0; padding-top: 50px; flex-wrap: nowrap; flex-basis: auto; flex-direction: column; padding-bottom: 25%;">
+        <ui:Button text="Play" display-tooltip-when-elided="true" name="Play" class="button" />
+        <ui:Button text="Shop" display-tooltip-when-elided="true" name="Shop" class="button" style="-unity-text-align: middle-center;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="Foother" style="flex-direction: row; flex-wrap: nowrap; justify-content: space-between; padding-left: 16px; padding-right: 16px; padding-top: 0; padding-bottom: 18px;">
+        <ui:Label text="Pet-Project by Michael" display-tooltip-when-elided="true" name="Label" class="text" style="-unity-text-align: middle-center;" />
+        <ui:Button display-tooltip-when-elided="true" name="Telegram" class="linkButton" style="justify-content: center; align-items: stretch; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 21px; padding-right: 21px; padding-top: 21px; padding-bottom: 21px;" />
+        <ui:Button display-tooltip-when-elided="true" name="Github" class="linkButton" style="justify-content: center; align-items: stretch; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 21px; padding-right: 21px; padding-top: 21px; padding-bottom: 21px; background-image: url(&apos;project://database/Assets/Art/UI/Icons/github-mark-white.png?fileID=2800000&amp;guid=f62ae522938e10d4fa0f65241a53a03b&amp;type=3#github-mark-white&apos;);" />
+    </ui:VisualElement>
+</ui:UXML>

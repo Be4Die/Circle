@@ -1,7 +1,5 @@
 using UnityEngine;
 using Framework.Utils;
-using UniRx;
-using System;
 
 namespace Framework.EffectSystem
 {
@@ -45,7 +43,7 @@ namespace Framework.EffectSystem
 
             var currentColor = new HSVColor(m_spriteRenderer.color);
             var newH = Mathf.PingPong(Time.time * Speed * m_speedScale, 1);
-            m_spriteRenderer.color = Color.HSVToRGB(newH, currentColor.S, currentColor.V);
+            m_spriteRenderer.color = UnityEngine.Color.HSVToRGB(newH, currentColor.S, currentColor.V);
         }
     }
 }

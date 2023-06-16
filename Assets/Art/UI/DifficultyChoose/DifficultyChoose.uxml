@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Art/UI/Global/mainUSS.uss?fileID=7433441132597879392&amp;guid=d971ae32688bf7f439906c6a2fc192e7&amp;type=3#mainUSS" />
+    <ui:VisualElement name="Title" style="flex-grow: 0;">
+        <ui:Label text="Choose Difficulty" display-tooltip-when-elided="true" class="text" style="font-size: 44px; -unity-font-style: bold; -unity-text-align: upper-center; white-space: normal;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="Body" style="flex-grow: 1; justify-content: space-around; padding-bottom: 63px; padding-top: 36px;">
+        <ui:Button text="Easy" display-tooltip-when-elided="true" name="Easy" class="button" />
+        <ui:Button text="Medium" display-tooltip-when-elided="true" name="Medium" class="button" />
+        <ui:Button text="Hard" display-tooltip-when-elided="true" name="Hard" class="button" />
+        <ui:Button text="Back" display-tooltip-when-elided="true" name="Back" class="button" style="padding-left: 3px; padding-right: 3px; padding-top: 3px; padding-bottom: 3px; margin-left: 80px; margin-right: 80px; font-size: 31px;" />
+    </ui:VisualElement>
+</ui:UXML>

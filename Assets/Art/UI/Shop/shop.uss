@@ -1,0 +1,67 @@
+Button.buy {
+    -unity-font: resource('FlatSkin/Font/Roboto-Bold');
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(68, 255, 66);
+    font-size: 28px;
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    border-top-left-radius: 27px;
+    border-bottom-left-radius: 27px;
+    border-top-right-radius: 27px;
+    border-bottom-right-radius: 27px;
+    border-left-color: rgb(91, 91, 91);
+    border-right-color: rgb(91, 91, 91);
+    border-top-color: rgb(91, 91, 91);
+    border-bottom-color: rgb(91, 91, 91);
+    background-image: url('project://database/Assets/Art/UI/Icons/shopping.png?fileID=2800000&guid=479117fe191916b459f0672e422fd0ac&type=3#shopping');
+    min-width: 25%;
+    -unity-text-align: upper-left;
+    -unity-background-scale-mode: scale-to-fit;
+    -unity-slice-left: 5;
+    -unity-slice-right: 5;
+    -unity-slice-bottom: 5;
+    -unity-slice-top: 5;
+}
+
+Button.buy:hover {
+    background-color: rgba(68, 255, 66, 0.55);
+}
+
+Button.active {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    min-width: 22%;
+    background-color: rgba(217, 217, 217, 255);
+    background-image: url('project://database/Assets/Art/UI/Icons/checkmark.png?fileID=2800000&guid=d189864e2e1c13746814d40315378468&type=3#checkmark');
+}
+
+Button.active:hover {
+    background-color: rgba(217, 217, 217, 0.75);
+}
+
+Button.unactive {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    min-width: 22%;
+    background-color: rgb(217, 217, 217);
+    background-image: none;
+}
+
+Button.unactive:hover {
+    background-color: rgba(217, 217, 217, 0.75);
+}

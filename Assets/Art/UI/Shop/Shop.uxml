@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Art/UI/Global/mainUSS.uss?fileID=7433441132597879392&amp;guid=d971ae32688bf7f439906c6a2fc192e7&amp;type=3#mainUSS" />
+    <Style src="project://database/Assets/Art/UI/Shop/shop.uss?fileID=7433441132597879392&amp;guid=404a25c2d7b3bdb4fa76fc43942b25be&amp;type=3#shop" />
+    <ui:VisualElement name="Titile" style="padding-top: 13px; flex-direction: row; justify-content: center; margin-top: 10px; margin-bottom: 10px;">
+        <ui:Label text="Shop" display-tooltip-when-elided="true" class="text" style="-unity-text-align: upper-center; font-size: 56px; -unity-font-style: bold; padding-left: 2px;" />
+        <ui:Button text="Back" display-tooltip-when-elided="true" name="Back" class="button" style="margin-left: 21px; font-size: 25px; padding-top: 5px; padding-bottom: 5px; margin-top: 10px; margin-bottom: 10px;" />
+    </ui:VisualElement>
+    <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" name="ShopItems" vertical-scroller-visibility="Hidden" horizontal-scroller-visibility="Hidden" style="flex-grow: 1;" />
+</ui:UXML>
