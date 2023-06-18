@@ -8,7 +8,7 @@ Circle - 2d casual mobile arcade. The player controls circles and dodges obstacl
  - 🎨UI design in figma.
  - 🖼️Figma layout in unity.
 ## 🏗️Architecture solution
- - UI - MVVM pattern
+ - UI - MVC pattern
  - Gameplay -  ??? *TODO: discribe all patterns*
 
 ## Technology Stack
